@@ -1,0 +1,19 @@
+.button {
+    margin-left: 40px;
+    font-size: 16px;
+    padding: 5px 24px;
+    border-radius: 6px;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    
+}
+.button:hover {
+    background-color: #4CAF50; 
+    color: white;
+
+    
+}
+.button:disabled{
+    background-color:rgb(245, 240, 240); 
+    color: rgb(192, 185, 185);   
+}
